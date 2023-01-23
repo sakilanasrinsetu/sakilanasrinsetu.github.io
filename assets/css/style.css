@@ -5,7 +5,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #ffffff;
+  background: linear-gradient(320deg,#3e3c3a,#11052e,#4d0e0e);
 }
 
 a {
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #df379e;
+  background: #000000;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #6e037c;
   transition: background 0.2s ease-in-out;
 }
 
@@ -64,7 +65,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background-image: linear-gradient(to left, #ed8093,#cf1143);
+  background-image: linear-gradient(320deg,#3e3c3a,#11052e,#641717);
+  /* background-image: linear-gradient(to left, #ed8093,#cf1143); */
   /* background: #ed8093; */
   /* background: #040b14; */
   overflow-y: auto;
@@ -282,7 +284,8 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: linear-gradient(320deg,#3e3c3a,#11052e,#641717);
+  color:#fff;
 }
 
 .section-title {
@@ -295,7 +298,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #2157a5;
 }
 
 .section-title h2::after {
@@ -304,7 +307,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #c7097e;
+  background: #eeeeee;
   bottom: 0;
   left: 0;
 }
@@ -319,7 +322,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #ffb200;
 }
 
 .about .content ul {
@@ -365,7 +368,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #eeeeee;
   margin-left: 60px;
 }
 
@@ -374,7 +377,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #c7c7c7;
 }
 
 .facts .count-box a {
@@ -407,7 +410,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #d5dbe4;
 }
 
 .skills .progress .skill .val {
@@ -434,7 +437,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #0c6cf1;
 }
 
 .resume .resume-item {
@@ -450,13 +453,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #d3cfcf;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  /* background: #e4edf9; */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -628,11 +631,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #a3d1ff;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #8a007e;
 }
 
 .services .description {
