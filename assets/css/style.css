@@ -597,6 +597,10 @@ section {
   margin-bottom: 20px;
 }
 
+.img-fluid{
+  height: 100%;
+  width: auto;
+}
 .services .icon {
   float: left;
   display: flex;
