@@ -205,6 +205,41 @@ section{
     animation-delay: 2s;
 }
 
+.coming-soon-text-animate{
+    width: 50rem;
+    position: relative;
+    margin-left: 50%;
+    font-family: 'Aladin', system-ui;
+}
+
+.coming-soon-text-animate h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw var(--main-color);
+    background: var(--gradient-color-bg);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    transition: .6s;
+    letter-spacing: 10px;
+    animation: moveText 3s linear infinite;
+    animation-delay: 2s;
+}
+
+.coming-soon-text-animate h1::before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -3px;
+    width: 0;
+    height: 70%;
+    border-right: 2px solid var(--main-color);
+    animation: moveCursorText 3s linear infinite;
+    animation-delay: 2s;
+}
+
 
 .hero-info p{
     font-size: .9rem;
