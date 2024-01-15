@@ -411,7 +411,7 @@ section{
 }
 
 .text-box h4{
-    /* font-size: 1.rem; */
+    font-size: 1.15rem;
     font-weight: 500;
     color: var(--main-color);
 }
