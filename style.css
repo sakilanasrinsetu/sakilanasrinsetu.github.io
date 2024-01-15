@@ -13,10 +13,10 @@
     /* --bg-color:#000000; */
     --bg-color:#ffffff;
     --gradient-white-bg:linear-gradient(0deg,#fff 0%,#edf4fa 51%,#e5eef7 100%);
-    --gradient-color-bg:linear-gradient(180deg,rgba(247,1,120,1)0%,
-                                                rgba(160,8,156,1)51%,
-                                                rgba(99,13,178,1)100%);
-    --main-color:#e6006d;
+    --gradient-color-bg:linear-gradient(180deg, rgb(13 60 2)0%,
+            rgb(0 0 0)51%,
+            rgb(11 180 25)100%);
+    --main-color:#1b7c12;
     --font-color:#212122;
     --hover-box-shadow:rgba(0,0,0,0.19)0px 10px 20px,
                        rgba(0,0,0,0.23)0px 6px 6px;     
@@ -57,12 +57,13 @@ header .logo{
 
 .logo i{
     font-family: 'Aladin', system-ui;
+    letter-spacing: 2px;
 }
 span{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
     /* color: transparent; */
-    color: #;
+    color: #333232;
 }
 
 ul.navlist{
@@ -181,7 +182,7 @@ section{
     font-weight: 700;
     margin-bottom: 1rem;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #770753;
+    -webkit-text-stroke: 0.1vw var(--main-color);
     background: var(--gradient-color-bg);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
