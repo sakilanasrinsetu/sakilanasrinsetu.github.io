@@ -719,28 +719,35 @@ section{
     transition: .3s;
 }
 
-.portfolio-box{
-    display: flex;
+.portfolio-box {
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    gap: .5rem;
+    gap: 2rem;
+    /* Increase the gap to 2rem */
     padding: .5rem;
-    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
     background: var(--gradient-white-bg2);
     border-radius: 10px;
     transition: all .3s ease;
 }
 
-.portfolio-content{
-    width: 100%;
+.portfolio-content {
+    flex: 1;
+    /* Allow the content to take up the remaining space */
     padding-left: .5rem;
     padding-bottom: .5rem;
 }
 
-.portfolio-img{
+.portfolio-img {
     width: 100%;
+    /* Adjust the width of the image container */
     border-radius: 5px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
 }
 
 .portfolio-box:hover img{
