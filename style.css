@@ -55,7 +55,7 @@ header .logo{
     color: var(--main-color);
 }
 
-.logo i{
+.logo{
     font-family: 'Aladin', system-ui;
     letter-spacing: 2px;
 }
