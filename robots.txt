@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sakilanasrinsetu.github.io/sitemap.xml
